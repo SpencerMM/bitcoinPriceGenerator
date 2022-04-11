@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>Test Api</title>
+
+</head>
+<body>
+
+    <h1>Bitcoin Current Price</h1>
+   
+    <p> Your selected tutorial site is:   
+    <p>One Bitcoin is worth: <input type="text" id="amount"> <input type="text" id="currency"></p>
+    <form>
+
+        <b>Select Currency</b>
+        <select id="currencyList" onchange="selectCurrency()" > 
+            <option value="">--Select Currency--</option>
+            <option value="USD">United States Dollars (USD)</option>
+            <option value="GBP">Great British Pounds (GBP)</option>
+            <option value="EUR">Euros (EUR)</option>
+        </select>
+
+    </form>
+
+    <script src="main.js" charset="utf-8"></script>
+
+</body>
+</html>
